@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cloud"
+    android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/pinyin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/letter"
+        android:layout_alignStart="@+id/letter"
+        android:layout_marginBottom="-10dp"
+        android:layout_marginStart="4dp"
+        android:text="yun"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/letter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="云"
+        android:textSize="56sp" />
+
+</RelativeLayout>
