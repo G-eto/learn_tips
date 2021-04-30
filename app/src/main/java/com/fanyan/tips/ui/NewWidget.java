@@ -1,12 +1,11 @@
-package com.doodod.five;
+package com.fanyan.tips.ui;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.Context;
-import android.graphics.Typeface;
 import android.widget.RemoteViews;
 
-import com.doodod.five.util.FontIconView;
+import com.doodod.five.R;
 
 /**
  * Implementation of App Widget functionality.

@@ -1,4 +1,4 @@
-package com.doodod.five.util;
+package com.fanyan.tips.ui.component;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

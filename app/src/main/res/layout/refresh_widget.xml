@@ -19,8 +19,20 @@
         android:id="@+id/letter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/start_margin"
         android:text="云"
         android:textSize="56sp" />
+
+    <TextView
+        android:id="@+id/explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/letter"
+        android:layout_marginStart="@dimen/peer_margin"
+        android:layout_centerInParent="true"
+        android:text="云，一般用作名词，表示停留大气层上的水滴或瓦斯或冰晶胶体的集合体；古汉语亦用作动词，表示说话。"
+        android:textSize="22sp" />
 
 </RelativeLayout>
